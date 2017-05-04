@@ -1,0 +1,7 @@
+desc 'create foo file'
+file 'foo' do
+  touch 'foo'
+end
+
+desc 'create config directory'
+directory 'config'

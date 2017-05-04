@@ -1,0 +1,10 @@
+desc 'say hello'
+task :hello do
+  print 'Hello'
+end
+
+task :world do
+  puts ', world'
+end
+
+# Run successively with `rake hello world`

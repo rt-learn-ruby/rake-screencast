@@ -1,0 +1,4 @@
+desc 'copy database config file'
+file 'config/database.yml' => 'config/database.yml.example' do
+  cp 'config/database.yml.example', 'config/database.yml'
+end

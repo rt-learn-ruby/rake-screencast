@@ -1,0 +1,6 @@
+directory 'config'
+
+desc 'create database config file'
+file 'config/database.yml' => :config do
+  touch 'config/database.yml'
+end

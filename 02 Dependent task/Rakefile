@@ -1,0 +1,9 @@
+desc 'say hello'
+task :hello do
+  print 'Hello'
+end
+
+desc 'say ", world"'
+task world: :hello do
+  puts ', world'
+end
